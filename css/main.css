@@ -1,0 +1,144 @@
+:root {
+    --main-txt-color: #212121;
+    --secondary-txt-color: #757575;
+    --accent-color: rgb(145, 168, 208, 0.5);
+    --primary-white-color: #fff;
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--main-txt-color);
+
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.decoration {
+    list-style: inherit;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 500;
+    color: var(--main-txt-color);
+}
+
+a:hover,
+a:focus {
+    color: #2196f3;
+}
+
+.link-decoration {
+    text-decoration: underline;
+}
+
+.main-section {
+    display: flex;
+    justify-content: baseline;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 35px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+    /* outline: 2px solid tomato; */
+}
+
+.name {
+    margin-bottom: 30px;
+    background-color: var(--accent-color);
+    margin-top: 30px;
+    padding: 60px;
+}
+
+.name__title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+}
+
+.additional-information {
+    background-color: var(--accent-color);
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.main-information {
+    padding-bottom: 50px;
+}
+
+.summary,
+.expirience,
+.work-expirience,
+.education,
+.add-education {
+    padding-right: 300px;
+}
+
+.expirience__list {
+}
+
+.title {
+    margin-bottom: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.01em;
+    background-color: rgb(71, 74, 81, 0.7);
+    color: white;
+}
+
+.no-margin {
+    margin-bottom: 0;
+}
+
+p {
+    font-weight: 400;
+}
+
+.work-expirience p {
+    margin-bottom: 4px;
+}
+
+.text-decoration {
+    font-weight: 700;
+}
+
+.education ul {
+    margin-bottom: 10px;
+}
+
+.education__description {
+    font-weight: 500;
+}
