@@ -3,6 +3,7 @@
     --secondary-txt-color: #757575;
     --accent-color: rgb(145, 168, 208, 0.5);
     --primary-white-color: #fff;
+    --secondary-bcg-color: #808080;
 }
 
 body {
@@ -116,7 +117,7 @@ a:focus {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.01em;
-    background-color: rgb(71, 74, 81, 0.7);
+    background-color: var(--secondary-bcg-color);
     color: white;
 }
 
