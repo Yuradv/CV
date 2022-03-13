@@ -12,7 +12,7 @@ body {
 
     font-family: Montserrat, sans-serif;
     letter-spacing: 0.03em;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.14;
 }
 
@@ -50,6 +50,7 @@ a:focus {
 
 .link-decoration {
     text-decoration: underline;
+    font-weight: 700;
 }
 
 .main-section {
@@ -81,7 +82,7 @@ a:focus {
 .name__title {
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 32px;
+    font-size: 34px;
     line-height: 2;
     letter-spacing: 0.04em;
 }
@@ -103,10 +104,17 @@ a:focus {
 .work-expirience,
 .education,
 .add-education {
-    padding-right: 300px;
+    padding-left: 70px;
+    padding-right: 100px;
 }
 
-.expirience__list {
+.expirience-item {
+    margin-bottom: 10px;
+}
+
+.work-expirience__text {
+    text-decoration: underline;
+    font-weight: 500;
 }
 
 .title {
@@ -114,7 +122,7 @@ a:focus {
     padding: 10px;
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 2;
     letter-spacing: 0.01em;
     background-color: var(--secondary-bcg-color);
@@ -130,7 +138,7 @@ p {
 }
 
 .work-expirience p {
-    margin-bottom: 4px;
+    margin-bottom: 5px;
 }
 
 .text-decoration {
@@ -143,4 +151,8 @@ p {
 
 .education__description {
     font-weight: 500;
+}
+
+.expirience__text {
+    margin-top: 5px;
 }
